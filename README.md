@@ -29,9 +29,8 @@ In parallel, qualitative researchers organized these codes in an arborescence th
 These thematic clusters were helpful to see how different SMOs positioned themselves with regards to broad strategies (cf. Figure 3).  
 
 <p align="center">
-<img width="425" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/6b92af8b-0474-4039-be73-e4f1361d7e77">
+<img width="600" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/6b92af8b-0474-4039-be73-e4f1361d7e77">
 </p>
-
 <p align="center">
 <b>Figure 3:</b> Distribution of LGBT’s SMOs for two of the ten clusters of topics
 </p>
