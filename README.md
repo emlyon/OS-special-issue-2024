@@ -19,16 +19,22 @@ Therefore, we decided to see how our initial list of 69 topics were related to o
 
 <p align="center">
 <img width="412" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/04af2ae0-ccbf-447e-93cf-846fd3fddfe2">
-
-__Figure 2:__ Dendrogram: hierarchical clustering of topics similarities (based on embeddings)
+</p>
+<p align="center">
+<b>Figure 1:</b> Dendrogram: hierarchical clustering of topics similarities (based on embeddings)
 </p>
 
 
 In parallel, qualitative researchers organized these codes in an arborescence through theoretical elaboration, engaging in coding as they usually do when trying to relate different pieces of initial codes by articulating them in axial codes in qualitative research (Charmaz, 2013). While some elements were similar in the manual coding and the hierarchical clustering (e.g., the list of topics that were found to be redundant by the qualitative researcher were indeed considered a cluster in the automated hierarchical clustering), some more theoretical rearticulation did not appear in the hierarchical clustering produced automatically. 
 These thematic clusters were helpful to see how different SMOs positioned themselves with regards to broad strategies (cf. Figure 3).  
 
-### Fig 3
+<p align="center">
+<img width="425" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/6b92af8b-0474-4039-be73-e4f1361d7e77">
+</p>
 
+<p align="center">
+<b>Figure 3:</b> Distribution of LGBT’s SMOs for two of the ten clusters of topics
+</p>
 
 Figure 3 shows how the five SMOs on which we tested these models relate to two clusters of topics identified by qualitative researchers (identified as “global movements for LGBT rights” and “tools to denounce and demonstrate discrimination”). These diagrams were helpful to objectify tendencies that we could observe qualitatively and to support them with statistically relevant measures. Ultimately, they might be helpful to capture tendencies when studying lesser known SMOs in the LGBT movement. 
 The use of topic modelling also allowed us to track the longitudinal evolution of topics in the 2015-2023 period. We grouped tweets by quarters and semesters and conducted two distinct analyses to observe how topics identified across the entire corpus of tweets changed over time. First, we identified which tweets of a given quarter or semester belonged to which global topic and counted tweets and topics per quarter or semester to derive a longitudinal trend for each global topic. Second, we ran an independent topic modeling analysis on the tweets of each quarter or semester to find local topics. We then computed their similarities with the global topics, deriving another temporal trend from the general topics (similarities were computed using the vector representation of topics as mentioned above). Figure 4 displays these time evolutions and shows how clusters of topics evolved in terms of number of tweets. Once we saw these saliences of some topics through time, we qualitatively went back to analyze what these salient points were about through analysis of representative tweets. This shows why we need to design an interactive process between using computer sciences models and going back to qualitative data to make sense of them. This research entailed a constant back and forth between modeling through different tools of topic modeling, and qualitative interpretation of the salience of some topics. 
