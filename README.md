@@ -78,8 +78,8 @@ We also explored how we could conduct network analysis of the different SMOs und
 <img width="500" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/c77e13e0-1451-4479-a9a3-0bd923bc38bd">
 </p>
 <p align="center">
-<b>Figure 7:</b> Networks of interactions between the LGBT’s SMOs. <small>Left: Shows density of retweets (the arrows’ thickness is proportional to the number of RTs). Right: Shows density of citations (the arrows’ thickness is proportional to the number of citations).
-</small>
+<b>Figure 7:</b> Networks of interactions between the LGBT’s SMOs. <i>Left: Shows density of retweets (the arrows’ thickness is proportional to the number of RTs). Right: Shows density of citations (the arrows’ thickness is proportional to the number of citations).
+</i>
 </p>
 
 
