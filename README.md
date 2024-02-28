@@ -61,17 +61,11 @@ Sentiment analysis is interesting to study the tone used by organizations to com
 <p align="center">
 <img width="326" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/96bcdb56-6dee-49b0-b096-95d6170167d6">
 </p>
-<p align="center" style="font-size:0.001pt;">
-AIDS awareness campains
-</p>
 <p align="center">
 <img width="321" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/55e30bca-6dce-44a5-9698-a58b20ba5ac2">
 </p>
 <p align="center">
-<small>Other awareness campains</small>
-</p>
-<p align="center">
-<b>Figure 6:</b> Distribution of polarity and subjectivity within some topics.
+<b>Figure 6:</b> Distribution of polarity and subjectivity within some topics. (Top: AIDS awareness campains. Bottom: other awareness campains.)
 </p>
 
 
@@ -80,7 +74,15 @@ The qualitative researchers could both check how this sentiment analysis related
 ## Network analysis
 We also explored how we could conduct network analysis of the different SMOs under study. Figure 7 displays interactions between our five tested SMOs, as seen on Twitter through retweets and citations (network of retweets to the left, and citations to the right). This helped objectify the connections between some organizations: both in terms of retweets and citations, @Hospital_internal related to @Police_internal and @Watchdog_external, but this connection was unilateral. In terms of retweets, @Ally_external retweeted others a lot. In terms of citations, all SMOs mentioned @Watchdog_external a lot. These variation in density of connections are here easy to interpret for the organizations that researchers already knew well, but they give us a tool to objectify these interrelations. In addition, if we include more SMOs in these network analyses, we should be able to gain an understanding of the broader LGBT field. To interpret the other connections, we will need to go back to qualitative interpretation to see how different SMOs cite and retweet one another. 
 
-### Fig 7
+<p align="center">
+<img width="500" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/c77e13e0-1451-4479-a9a3-0bd923bc38bd">
+</p>
+<p align="center">
+<b>Figure 7:</b> Networks of interactions between the LGBT’s SMOs. <small>Left: Shows density of retweets (the arrows’ thickness is proportional to the number of RTs). Right: Shows density of citations (the arrows’ thickness is proportional to the number of citations).
+</small>
+</p>
+
+
 
 With this retrospective account of our tinkering with topic modeling for analyzing the LGBT rights movement in France, we have shown how these tools could be helpful to capture SMOs various claims, tactics, targets, and tone. In addition, we showed how such tools could be helpful to capture how strategies vary through time and how SMOs specialized in some tactics or claims, thereby engaging in a strategic division of labor (authors, date). We have examined here for instance the emergence of specific campaigns at different points in time, and their variation in terms of tone. While showcasing these tools, we also identified key moments in the analysis of data where the qualitative interpretation of the data was necessary to make sense of the output of topic modeling, sentiment or networks analyses. 
 
@@ -137,5 +139,3 @@ Here again, this summary gives us a general understanding of the case. Further a
 While this tool felt tremendously helpful to facilitate case selection without having to write summaries and chronologies for each case by hand, the question of the accuracy of these summaries soon emerged. To address this, the computer scientist and co-author of this paper helped us design a protocol to check Chat GPT’s performance on deductive coding. ChatGPT’s results do not come with estimations of their accuracies, or statistical estimates of the performance of its model. These can however be obtained by researchers who need to estimate VhatGPT’s performance on the dataset under study (here documents in the corpus of the 445 legal cases) as well as on similar data. For classical tasks such as labelling and classifying documents (finding categorical outputs to a document) or regression tasks (finding continuous numerical outputs) a simple protocol is as follows: 1) extract a random subset of samples (documents) 2) perform manually the labelling or calculation of continuous outputs 3) compare with chat GPT’s output on these samples. This last comparison is performed just like in standard supervised machine learning when computing an in-sample error to estimate the out-sample error and assess the performance of a model. The evaluation metric will depend on the task and what researchers need to measure. For labelling documents for instance, a classification task, researchers will decide which classification metric to use (e.g., accuracy, precision/recall, F1, AUCs, etc.). For extracting relevant parts of a document, a weighted average of ratios of intersections (or Jaquart index) between what researchers vs ChatGPT identified would work. 
 For deductive coding taks, the protocol is the same: 1) extract a random subset of samples (documents); 2) perform the deductive coding on the samples (to get their true deductive codings); 3) compare with chat GPT’s output on these samples. But the comparison step is adapted to deductive coding (assigning labels to words in the documents of the samples). Scores per documents may be computed by checking the proportion of correct chatGPT produced codes vs true codes (weighted by the proportion of common terms associated with a code), or any other classification metric for that matter. Then the evaluation metric is the average of scores over the samples.
 As this project progresses, we are attempting to make more systematic assessment of the accuracy of ChatGPT’s output, while also working on our research design to see how such summaries of text could help us classify these judicial cases, facilitate theoretical sampling through helping us identify scenarios and help choices for further qualitative coding, and test out models of deductive coding to code key variables about each of these cases (e.g., gender of the victim, outcome of the trial, hierarchical relationship, etc.). 
-![image](https://github.com/emlyon/OS-special-issue-2024/assets/16318654/72caee19-aac0-47ff-ad75-61f101597662)
-
