@@ -16,7 +16,12 @@ With this presentation, the authors could interpret the meaning of each topic by
 This recoding of topics was helpful to expand our understanding of the LGBT movement beyond the categories that researchers were used to look for, and to re-expand their understanding of the movement by examining what were the emerging themes through topic modeling. As the organizations whose tweets were analyzed were SMO engaged in lobbying and advocacy efforts, what emerged was not just a list of themes, but a list of claims and strategies from these different SMOs, as well as a list of potential targets that they aimed at in their tweets. Thus, while these topics helped capture some topics that became central in the claim of this LGBT rights movement (biphobia, transphobia, AIDS awareness), they also favored the elaboration of a list of tactics (targeting the government for advocacy, collecting data to prove LGBT discrimination, organizing local events, etc.), and pinpointed how these tweets could target different types of actors (private companies, local officials, volunteers, governmental actors, the LGBT community itself, etc.). This recoding thus helped us develop a comprehensive understanding of the tactical repertoire of the different SMOs engaged in the field of LGBT rights activism in France through online activism. Some topics from this initial list appeared to be redundant, and the qualitative coder noted when different topics identified through topic modeling seemed to be related to the same underlying idea (e.g., several topics were related to call for volunteers, sharing of LGBT-relevant news with their communities of followers, or the organizing of some specific awareness campaigns). Thus, it seems helpful to bring together topics that were initially perceived as different, and to create an arborescence of these different topics to see how we could cluster them into similar types of topics. 
 Therefore, we decided to see how our initial list of 69 topics were related to one another and could be rearticulated with others. We contrasted two tools for doing so. One of the authors created an automated hierarchical clustering. The LLM used for topic modelling (the BERT encoder) represents words, phrases, and tweets as vectors in a higher-dimensional vector space, and the semantic properties of these representations are such that texts with similar meanings have representations which are close in vector space. Vector representations of topics can thus be compared two by two to build a dendrogram of similarities as displayed in Figure 2 (for instance in the top left corner topics 22, 41, and 47 are highly similar). 
 
-### Fig 2
+<p align="center">
+<img width="412" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/04af2ae0-ccbf-447e-93cf-846fd3fddfe2">
+
+__Figure 2:__ Dendrogram: hierarchical clustering of topics similarities (based on embeddings)
+</p>
+
 
 In parallel, qualitative researchers organized these codes in an arborescence through theoretical elaboration, engaging in coding as they usually do when trying to relate different pieces of initial codes by articulating them in axial codes in qualitative research (Charmaz, 2013). While some elements were similar in the manual coding and the hierarchical clustering (e.g., the list of topics that were found to be redundant by the qualitative researcher were indeed considered a cluster in the automated hierarchical clustering), some more theoretical rearticulation did not appear in the hierarchical clustering produced automatically. 
 These thematic clusters were helpful to see how different SMOs positioned themselves with regards to broad strategies (cf. Figure 3).  
@@ -51,15 +56,25 @@ With this retrospective account of our tinkering with topic modeling for analyzi
 A last tool we wish to present here is the use of ChatGPT to summarize complex data (here judicial cases). We are using these summaries as a tool to help us select relevant cases to explore, and we also discuss the necessity to design ways to assess the quality of these summaries. We used the following prompt on the version of ChatGPT 3.5 “Can you provide a summary and a chronology of the key events for the following judicial decision” and then we pasted the full content of the decision being examined (in French). We took a judicial decision that was 5-page long (2022 words). The outcome—written in less than a minute—was the following response (391 words):
 
 >This judicial decision, rendered by the Cour de cassation (French Supreme Court) in its social chamber on May 6, 2015, concerns a case involving a contractual dispute between an employer (M. Y...) and an employee (Mme X...). Here is a summary and chronology of the key events:
+>
 >Background: Mme X... was employed as a waitress by M. Y..., who operated a restaurant. She was hired on a fixed-term contract from June 14 to July 14, 2010, and then from July 15, 2010, to January 14, 2011.
+>
 >Legal Action: Claiming that her employer committed a serious fault justifying the early termination of her employment contract, Mme X... brought the matter to the prud'homal jurisdiction (labour court).
+>
 >First Instance Decision: The labour court ruled in favor of Mme X... by finding that the employer's actions constituted a serious fault.
+>
 >Appeal: M. Y... appealed the decision to the Cour d'appel de Caen (Court of Appeal of Caen).
+>
 >Decision of the Court of Appeal (July 5, 2013): The Court of Appeal upheld the finding of a serious fault on the part of the employer. It ordered M. Y... to pay Mme X... certain sums as back pay and related vacation pay, as well as to provide her with compliant pay slips.
+>
 >Appeal to the Cour de cassation: Dissatisfied with the decision, M. Y... appealed to the Cour de cassation.
+>
 >Cour de cassation's Decision (May 6, 2015):
+>
 >First Ground: The Cour de cassation rejected the first ground of appeal, finding that the Court of Appeal had appropriately assessed the evidence and correctly determined the existence of a serious fault on the part of the employer.
+>
 >Second Ground: The Cour de cassation partially accepted the second ground of appeal. It ruled that the amounts awarded to Mme X... by the Court of Appeal did not qualify as salary and therefore should not have led to the issuance of compliant pay slips. The case was therefore partially annulled on this point and referred back to the Court of Appeal of Rouen for reconsideration.
+>
 >In summary, the Cour de cassation upheld the finding of a serious fault by the employer but partially annulled the Court of Appeal's decision regarding the payment of certain sums and the issuance of compliant pay slips. The case was remanded to the Court of Appeal of Rouen for further consideration on these specific points.
 
 This summary, which is short and written in plain English, was easy to understand and helped us quickly grasp what this case was about. A serious fault of an employer against one of his employees: a waitress. We know the gender of the two key actors in this case, and have a basic timeline of the events. To check for the accuracy of these description, we contrasted it with the full case in French. The events described in ChatGPT’s summaries are accurate. Yet, it did not provide enough background about the nature of what was reproached to the employer. For the sake of demonstration, we produce a table below that contrast ChatGPT’s summaries (in plain, clear English) with the relevant excerpts of text (in French, with complex judicial language and frequent repetition). We only present a few rows to show how we are proceeding. Table 1 below provides an analysis of which actual text correspond to pieces of summary from ChatGPT: 
