@@ -10,7 +10,7 @@ We used topic modeling to make sense of the Twitter data collected on various LG
 <img width="400" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/0a8f002d-2b35-47fd-9c24-26c513328e79">
 </p>
 <p align="center">
-__Figure 1:__ Topic 30, relabeled “political commentaries on legal changes around LGBT rights around the world” and its mobilization by 5 key SMOs.
+**Figure 1:** Topic 30, relabeled “political commentaries on legal changes around LGBT rights around the world” and its mobilization by 5 key SMOs.
 </p>
 
 With this presentation, the authors could interpret the meaning of each topic by qualitatively analyzing its most frequent terms and most representative tweets. In this example, the topic revolved around political commentaries on legal changes around LGBT rights around the world. When we analyzed the content of the tweets, we saw how they reviewed both changes in favor and against LGBT minorities in various countries. This topic and other similar ones showed us how some French LGBT SMOs engaged in global advocacy campaigns beyond working to promote workplace equality in France. The diagram also showed us that this effort of global advocacy was mostly taken on by two SMOs, and not really mobilized by others. Qualitative researchers recoded this this initial raw classification produced by the computer scientist to interpret and label each topic to capture what their common core was, and to see how they related to one another.  
