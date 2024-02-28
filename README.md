@@ -117,9 +117,9 @@ This summary, which is short and written in plain English, was easy to understan
 <b>Table 1</b> Assessing the accuracy of ChatGPT’s summaries
 </p>
 
-|ChatGPT summary|Corresponding text in the judicial decision|Comment|
-|:---:|:---:|:---:|
-|**Background:** Mme X... was employed as a waitress by M. Y..., who operated a restaurant. She was hired on a fixed-term contract from June 14 to July 14, 2010, and then from July 15, 2010, to January 14, 2011.|Attendu, selon l'arrêt attaqué, que Mme X... a été engagée en qualité de serveuse par M. Y..., exploitant un restaurant, par contrat à durée déterminée pour la période du 14 juin au 14 juillet 2010 puis du 15 juillet 2010 au 14 janvier 2011 ;|Sufficient and accurate information|
+| ChatGPT summary | Corresponding text in the judicial decision | Comment |
+| :---: | :---: | :---: |
+| **Background:** Mme X... was employed as a waitress by M. Y..., who operated a restaurant. She was hired on a fixed-term contract from June 14 to July 14, 2010, and then from July 15, 2010, to January 14, 2011. | Attendu, selon l'arrêt attaqué, que Mme X... a été engagée en qualité de serveuse par M. Y..., exploitant un restaurant, par contrat à durée déterminée pour la période du 14 juin au 14 juillet 2010 puis du 15 juillet 2010 au 14 janvier 2011 ; | Sufficient and accurate information |
 
 
 As discussed in the last column of the table above, some informatiuon were missing about  specificities of this case (What was the serious fault of the employer? What happened concretely?). We therefore further prompted: “what is reproached exactly to the employer?” To this question, the response was: 
