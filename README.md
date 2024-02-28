@@ -118,11 +118,8 @@ This summary, which is short and written in plain English, was easy to understan
 </p>
 
 |ChatGPT summary|Corresponding text in the judicial decision|Comment|
-|---|---|---|
+|:---:|:---:|:---:|
 |**Background:** Mme X... was employed as a waitress by M. Y..., who operated a restaurant. She was hired on a fixed-term contract from June 14 to July 14, 2010, and then from July 15, 2010, to January 14, 2011.|Attendu, selon l'arrêt attaqué, que Mme X... a été engagée en qualité de serveuse par M. Y..., exploitant un restaurant, par contrat à durée déterminée pour la période du 14 juin au 14 juillet 2010 puis du 15 juillet 2010 au 14 janvier 2011 ;|Sufficient and accurate information|
-|**Legal Action:** Claiming that her employer committed a serious fault justifying the early termination of her employment contract, Mme X... brought the matter to the prud'homal jurisdiction (labour court).|qu'invoquant l'existence d'une faute grave de l'employeur justifiant la rupture anticipée de ce contrat de travail, la salariée a saisi la juridiction prud'homale ;|Sufficient and accurate information|
-|First Instance Decision: The labour court ruled in favor of Mme X... by finding that the employer's actions constituted a serious fault|Il est fait grief à l'arrêt attaqué, d'AVOIR dit que la prise d'acte, par Mme X..., de la rupture de son contrat de travail était imputable à la faute grave de l'employeur et d'AVOIR condamné M. Y... à lui verser les sommes de 7.614,65 euros à titre de rappel de salaire, de 761,46 euros à titre de congés payés afférents et d'AVOIR ordonné à M. Y... la remise à Mme X... des bulletins de salaire, du certificat de travail, de l'attestation Pôle emploi et des justificatifs de paiement des cotisations sociales, conformes à sa décision ;|Sufficient and accurate information|
-|**Appeal:** M. Y... appealed the decision to the Cour d'appel de Caen (Court of Appeal of Caen).|Décision attaquée : Cour d'appel de Caen, du 05 juillet 2013|Décision attaquée : Cour d'appel de Caen, du 05 juillet 2013|Sufficient and accurate information|
 
 
 As discussed in the last column of the table above, some informatiuon were missing about  specificities of this case (What was the serious fault of the employer? What happened concretely?). We therefore further prompted: “what is reproached exactly to the employer?” To this question, the response was: 
