@@ -38,15 +38,42 @@ These thematic clusters were helpful to see how different SMOs positioned themse
 Figure 3 shows how the five SMOs on which we tested these models relate to two clusters of topics identified by qualitative researchers (identified as “global movements for LGBT rights” and “tools to denounce and demonstrate discrimination”). These diagrams were helpful to objectify tendencies that we could observe qualitatively and to support them with statistically relevant measures. Ultimately, they might be helpful to capture tendencies when studying lesser known SMOs in the LGBT movement. 
 The use of topic modelling also allowed us to track the longitudinal evolution of topics in the 2015-2023 period. We grouped tweets by quarters and semesters and conducted two distinct analyses to observe how topics identified across the entire corpus of tweets changed over time. First, we identified which tweets of a given quarter or semester belonged to which global topic and counted tweets and topics per quarter or semester to derive a longitudinal trend for each global topic. Second, we ran an independent topic modeling analysis on the tweets of each quarter or semester to find local topics. We then computed their similarities with the global topics, deriving another temporal trend from the general topics (similarities were computed using the vector representation of topics as mentioned above). Figure 4 displays these time evolutions and shows how clusters of topics evolved in terms of number of tweets. Once we saw these saliences of some topics through time, we qualitatively went back to analyze what these salient points were about through analysis of representative tweets. This shows why we need to design an interactive process between using computer sciences models and going back to qualitative data to make sense of them. This research entailed a constant back and forth between modeling through different tools of topic modeling, and qualitative interpretation of the salience of some topics. 
 
-### Fig 4
+<p align="center">
+<img width="500" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/53bcaeff-45c8-45dc-959a-2b5f20078bf0">
+</p>
+<p align="center">
+<b>Figure 4:</b> Time evolution of topics. Number of tweets of two clusters of topics across the period.
+</p>
 
 This automated method for topic modeling had interesting facets for qualitative researchers. First, these tools provided statistical evidence of how the topics were unequally discussed by different SMOs. It helped us ground an intuition coming from hand coding of the data and generalize it with more statistically relevant figures to show how some topics really were primarily tackled by some SMOs and not others. But beyond this generalization concern, the automated method also brought to the attention of qualitative researchers emerging themes that were significant in volume, but to which the researchers did not pay much attention when coding by hand. Similarly, topic evolutions through time compelled us to go back to qualitative data with more specific questions in mind (Why did this topic resurfaced so powerfully at a specific time? What was the stake then?). This shows how combining topic modeling with qualitative coding could be beneficial to develop large-scale analysis of a social movement field on social media. While we focused on the data from Twitter (now X) to examine the movement for workplace LGBT rights in France, we believe that the tools explored here could be helpful to study different social movements, advocacy, and lobbying efforts online, and that similar tools could work for other social media platforms (Facebook, LinkedIn, Instagram, etc.). Advocacy work and influence work on social media is a complex phenomenon, which occurs through various stages through time, and also tends to be scattered across different organizations. Thus, to gain a comprehensive understanding of how such movements develop through time, progressively renew their claims, articulate various tactics (disruptive, persuasive, reputation-mediated, educational, etc.), and engage in strategic division of labor, it seems necessary to combine tools for big data (web scrapping tools, topic modelling, network analysis), with a fine-grained analysis of these processes through a qualitative perspective.
 
 ## Sentiment analysis
 Sentiment analysis is interesting to study the tone used by organizations to communicate on various topics, and hence how they stand rationally or emotionally. We attempted to study polarity and subjectivity of tweets and topics of different SMOs. Polarity is measured by an index measuring sentiment and ranging from -1 to 1 (-1 very negative, 0 neutral, 1 very positive), and subjectivity with an index ranging from 0 to 1 (0 objective, 1 subjective). Sentiment analysis could give us a big picture of the tone used by different SMOs. For instance, Figure 5 shows that @Hospital_internal has noticeable strong negative tweets, with polarity -1 and subjectivity 1, one of which is for instance: messages such as “When school becomes hell: the terrible daily life of Thomas, victim of school bullying.” Similarly, Figure 6 shows how, in the cluster of topics around awareness campaigns, some awareness campaigns used neutral or positive discourses, while others used strongly negative discourses (e.g., AIDs awareness campaigns, anti-hate campaigns). Going back to the most representative tweets here was helpful to capture why some topics or SMOs were associated with particularly negative or positive types of discourses. 
 
-### Fig 5
-### Fig 6
+<p align="center">
+<img width="600" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/ebd67a0e-704d-4d04-9fb1-c209d88c8fc7">
+</p>
+<p align="center">
+<b>Figure 5:</b> Polarity and subjectivity of tweets of LGBT’s SMOs
+</p>
+
+
+<p align="center">
+<img width="326" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/96bcdb56-6dee-49b0-b096-95d6170167d6">
+</p>
+<p align="center">
+<small>AIDS awareness campains</small>
+</p>
+<p align="center">
+<img width="321" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/55e30bca-6dce-44a5-9698-a58b20ba5ac2">
+</p>
+<p align="center">
+<small>Other awareness campains</small>
+</p>
+<p align="center">
+<b>Figure 6:</b> Distribution of polarity and subjectivity within some topics.
+</p>
+
 
 The qualitative researchers could both check how this sentiment analysis related to our own knowledge of the given organizations, but also recode inductively representative tweets to draw more general conclusion about which organization developed which kind of discourses. As our goal is to expand this tool to lesser-known LGBT organization, it will help us capture phenomena beyond the pool of the most studied and central LGBT organization in France. 
 
