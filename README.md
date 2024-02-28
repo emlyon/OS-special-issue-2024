@@ -61,8 +61,8 @@ Sentiment analysis is interesting to study the tone used by organizations to com
 <p align="center">
 <img width="326" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/96bcdb56-6dee-49b0-b096-95d6170167d6">
 </p>
-<p align="center">
-<small>AIDS awareness campains</small>
+<p align="center" style="font-size:0.001pt;">
+AIDS awareness campains
 </p>
 <p align="center">
 <img width="321" alt="image" src="https://github.com/emlyon/OS-special-issue-2024/assets/16318654/55e30bca-6dce-44a5-9698-a58b20ba5ac2">
